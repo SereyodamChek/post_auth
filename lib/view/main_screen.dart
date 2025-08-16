@@ -77,7 +77,7 @@ class _MainScreenState extends State<MainScreen> {
             ),
             title: Text(
               'Online Shop',
-              style: GoogleFonts.kantumruyPro(
+              style: GoogleFonts.cabin(
                 fontSize: 20,
                 color: const Color.fromARGB(255, 0, 0, 0),
                 fontWeight: FontWeight.bold,

@@ -68,12 +68,14 @@ class _LoginScreenState extends State<LoginScreen> {
                   textEditingController: _emailController,
                   hintText: 'Email or Phone Number',
                   icon: FontAwesomeIcons.envelope,
+                  suffix: null,
                 ),
                 TextFieldInput(
                   textEditingController: _passwordController,
                   hintText: 'Password',
                   icon: FontAwesomeIcons.lock,
                   isPassword: true,
+                  suffix: null,
                 ),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 5),

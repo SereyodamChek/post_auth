@@ -13,6 +13,8 @@ class TextFieldInput extends StatelessWidget {
     required this.hintText,
     required this.icon,
     this.textInputType = TextInputType.text,
+    required suffix,
+    // required IconButton suffix,
   });
 
   @override

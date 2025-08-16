@@ -80,17 +80,20 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   textEditingController: _nameController,
                   hintText: 'User Name',
                   icon: Icons.person,
+                  suffix: null,
                 ),
                 TextFieldInput(
                   textEditingController: _emailController,
                   hintText: 'Email or Phone Number',
                   icon: Icons.email,
+                  suffix: null,
                 ),
                 TextFieldInput(
                   textEditingController: _passwordController,
                   hintText: 'Password',
                   icon: Icons.lock,
                   isPassword: true,
+                  suffix: null,
                 ),
                 MyButton(
                   onTap: isLoading ? null : signUpUser,
